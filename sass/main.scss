@@ -1,0 +1,48 @@
+@use 'abstracts/variables' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+
+.header {
+  &__logo {
+    margin: 3rem auto 3.375rem;
+  }
+
+  &__hero {
+    display: flex;
+
+    img {
+      max-width: 42%;
+    }
+
+    &--left {
+      margin-left: -1.2rem;
+    }
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  .attribution {
+    padding-top: 1rem;
+    font-size: 11px; text-align: center;
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
+  }
+}

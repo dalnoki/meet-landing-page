@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+
+.header__logo {
+  margin: 3rem auto 3.375rem;
+}
+.header__hero {
+  display: flex;
+}
+.header__hero img {
+  max-width: 42%;
+}
+.header__hero--left {
+  margin-left: -1.2rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer .attribution {
+  padding-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.footer .attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=index.css.map */
