@@ -9,6 +9,7 @@
 }
 
 body {
+  font-family: 'Red Hat Display', sans-serif;
   text-align: center;
 }
 
@@ -19,14 +20,27 @@ body {
 
   &__hero {
     display: flex;
+    min-height: 9.6rem;
+    margin-bottom: 3rem;
 
     img {
-      max-width: 42%;
+      max-width: 53%;
     }
 
     &--left {
       margin-left: -1.2rem;
     }
+
+    &--right {
+      margin-left: 1.2rem;
+    }
+  }
+}
+
+.main {
+  &__title {
+    color: $title-color;
+    font-size: 2.5rem;
   }
 }
 
